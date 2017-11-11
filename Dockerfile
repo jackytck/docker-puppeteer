@@ -1,7 +1,4 @@
-FROM node:8
-
-LABEL maintainer="yeongjinnn@gmail.com"
-
+FROM node:9.1.0-slim
 RUN apt-get update && \
     apt-get install -yq \
         gconf-service \
