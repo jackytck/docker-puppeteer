@@ -1,4 +1,4 @@
-FROM node:9.1.0-slim
+FROM node:9.11.2-slim
 RUN apt-get update && \
     apt-get install -yq \
         gconf-service \
